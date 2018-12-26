@@ -1,0 +1,27 @@
+{
+  "name": "myproject1",
+  "version": "1.0.0",
+  "description": "自己的小项目",
+  "main": "main.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "./text.js",
+    "start":"node ./main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miaonima123/myProject1.git"
+  },
+  "author": "Mc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miaonima123/myProject1/issues"
+  },
+  "homepage": "https://github.com/miaonima123/myProject1#readme"
+}

@@ -1,0 +1,344 @@
+.carousel-item img{
+    width:100%;
+}
+.carousel-indicators li{
+    width:20px;
+    height:20px;
+    border:1px solid #fff;
+    border-radius: 50%;
+    margin-right:10px;
+}
+.carousel-indicators .active{
+    background:#fff;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    background:black;
+    width:3%;
+    height:20%;
+    top:40%;
+}
+.font_color{
+    color:#787878;
+}
+.glyphicon-book{
+    font-size:50px;
+}
+
+.ico{
+    position: absolute;
+    left:0.4rem;
+    top:0;
+    font-size:2rem;
+}
+.text{
+    position: absolute;
+    left:4.5rem;
+    top:1rem;
+}
+.bg_padding{
+    padding-bottom: 14rem;
+}
+.img_size{
+    width:100%;
+}
+
+.title_border:after{
+    content:"";
+    display:block;
+    margin:1rem auto 0;
+    width:10rem;
+    border-bottom:2px solid #a0ce4e;
+}
+.title2_border:after{
+    content:"";
+    display:block;
+    margin-top:1rem;
+    width:3rem;
+    border-bottom:2px solid #a0ce4e;
+}
+.icon_color{
+    color:#a0ce4e;
+}
+
+.bg2_color{
+    padding:5rem 5rem;
+    background:#f4f4f4;
+}
+
+.img_box{
+    height:20rem;
+    width:100%;
+    background:url(../img/counter.jpg) no-repeat;
+    background-size:100%;
+    background-attachment:fixed;
+}
+
+.black_box{
+    width:100%;
+    height:20rem;
+    background:rgba(0, 0, 0, .8);
+    color:#fff;
+    text-align: center;
+    font-size:1.5rem;
+    padding:5rem 0 5rem;
+}
+
+.row_mt{
+    margin-top:14rem;
+}
+.img_box2{
+    height:20rem;
+    width:100%;
+    background-size:100%;
+    background:url(../img/dark_wood.png);
+    background-attachment:fixed;
+}
+
+.black_box2{
+    width:100%;
+    height:20rem;
+    background:rgba(0, 0, 0, .5);
+    color:#fff;
+    padding:5rem 0 5rem;
+    margin-top:20rem;
+}
+
+.animei_box{
+    background:#eee;
+    position: relative;
+}
+
+
+/* 动画效果第一套 */
+.animei_1{
+    width:14rem;
+    height:0.9rem;
+    background:#a0ce4e;
+    animation:translate11 1s linear;
+}
+@keyframes translate11{
+    0%{width:0rem;}
+    100%{width:14rem;}
+}
+.animei_ok{
+    width:3rem;
+    height:3rem;
+    border:0.3rem solid #a0ce4e;
+    border-radius:50%;
+    position: absolute;
+    left:13.9rem;
+    top:-0.9rem;
+     animation: translate12 1s linear; 
+}
+.animei_ok p{
+    position: absolute;
+    top:-30px;
+    left:8px;
+}
+.animei_ok span{
+    line-height:2.5rem;
+    color:#a0ce4e;
+}
+@keyframes translate12{
+    0%{ left:0rem;}
+    100%{ left: 13.9rem;}
+}
+/* 动画效果第一套 */
+
+
+/* 动画效果第二套 */
+.animei_2{
+    width:17rem;
+    height:0.9rem;
+    background:#a0ce4e;
+    animation:translate21 1s linear;
+}
+@keyframes translate21{
+    0%{width:0rem}
+    100%{width:17rem}
+}
+.animei_ok2{
+    width:3rem;
+    height:3rem;
+    border:0.3rem solid #a0ce4e;
+    border-radius:50%;
+    position: absolute;
+    left:16.7rem;
+    top:-0.9rem;
+     animation: translate22 1s linear; 
+}
+.animei_ok2 p{
+    position: absolute;
+    top:-30px;
+    left:8px;
+}
+.animei_ok2 span{
+    line-height:2.5rem;
+    color:#a0ce4e;
+}
+@keyframes translate22{
+    0%{ left:0rem;}
+    100%{ left: 16.7rem;}
+}
+/* 动画效果第二套 */
+
+
+/* 动画效果第三套 */
+.animei_3{
+    width:20.3rem;
+    height:0.9rem;
+    background:#a0ce4e;
+    animation:translate31 1s linear;
+}
+@keyframes translate31{
+    0%{width:0rem}
+    100%{width:20.3rem}
+}
+.animei_ok3{
+    width:3rem;
+    height:3rem;
+    border:0.3rem solid #a0ce4e;
+    border-radius:50%;
+    position: absolute;
+    left:20rem;
+    top:-0.9rem;
+     animation: translate32 1s linear; 
+}
+.animei_ok3 p{
+    position: absolute;
+    top:-30px;
+    left:8px;
+}
+.animei_ok3 span{
+    line-height:2.5rem;
+    color:#a0ce4e;
+}
+@keyframes translate32{
+    0%{ left:0rem;}
+    100%{ left: 20rem;}
+}
+/* 动画效果第三套 */
+
+
+/* 动画效果第四套 */
+.animei_4{
+    width:24.2rem;
+    height:0.9rem;
+    background:#a0ce4e;
+    animation:translate41 1s linear;
+}
+@keyframes translate41{
+    0%{width:0rem}
+    100%{width:24.2rem}
+}
+.animei_ok4{
+    width:3rem;
+    height:3rem;
+    border:0.3rem solid #a0ce4e;
+    border-radius:50%;
+    position: absolute;
+    left:24rem;
+    top:-0.9rem;
+     animation: translate42 1s linear; 
+}
+.animei_ok4 p{
+    position: absolute;
+    top:-30px;
+    left:8px;
+}
+.animei_ok4 span{
+    line-height:2.5rem;
+    color:#a0ce4e;
+}
+@keyframes translate42{
+    0%{ left:0rem;}
+    100%{ left: 24rem;}
+}
+/* 动画效果第四套 */
+
+
+/* 动画效果第五套 */
+.animei_5{
+    width:28.2rem;
+    height:0.9rem;
+    background:#a0ce4e;
+    animation:translate51 1s linear;
+}
+@keyframes translate51{
+    0%{width:0rem}
+    100%{width:28.2rem}
+}
+.animei_ok5{
+    width:3rem;
+    height:3rem;
+    border:0.3rem solid #a0ce4e;
+    border-radius:50%;
+    position: absolute;
+    left:28rem;
+    top:-0.9rem;
+     animation: translate52 1s linear; 
+}
+.animei_ok5 p{
+    position: absolute;
+    top:-30px;
+    left:8px;
+}
+.animei_ok5 span{
+    line-height:2.5rem;
+    color:#a0ce4e;
+}
+@keyframes translate52{
+    0%{ left:0rem;}
+    100%{ left: 28rem;}
+}
+/* 动画效果第五套 */
+
+
+.card_hr{
+    border-top:4px solid #a0ce4e;
+}
+
+.text_color{
+    color:#787878;
+}
+
+#parnet>.card_hr{
+    border:none !important;
+}
+
+.bg3_color{
+    background:#f8f9f9;
+}
+.chat{
+    width:30px;
+	height:20px;
+    background:#000;
+    border-radius: 3px;
+    position: absolute;
+    top:-1.8rem;
+    left:0.2rem;
+    text-align: center;
+    line-height:20px;
+    z-index: 100;
+}
+.triangle{
+    width:10px;
+    height:10px;
+    border-radius:1px;
+    background:#000;
+    position: absolute;
+    top:-1rem;
+    left:1.2rem;
+    transform:rotate(113deg);
+    z-index: 1;
+}
+#touch_1{
+    display:none;
+}
+#touch_1:target{
+    display: block;
+}
+a:hover p{
+    
+}

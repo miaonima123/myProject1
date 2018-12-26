@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <!-- 引入boot文件，引入顺序有要求-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--nav导航栏-->
+    <div class="container mb-3 mt-2">
+            <div class="navbar navbar-expand-md  navbar-light">
+                <!--不被折叠的选项-->
+              <a href="#"  class="navbar-brand">
+                <img src="img/logo.png">
+              </a>  
+              <!--小屏幕最右边那个钮：带三条横线--> 
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+            <div class="collapse navbar-collapse justify-content-end" id="content">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SERVICE</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">LOGIN/REGISTER</a></li>
+                </ul>
+            </div>         
+        </div>
+    </div>
+<!--nav导航栏-->
+
+<!--轮播图-->
+    <div class="container-fluid p-0 m-0">
+        <div class="carousel" id="demo" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active"><img src="img/banner/slide-1.jpg"></div>
+                <div class="carousel-item"><img src="img/banner/slide-2.jpg"></div>
+                <div class="carousel-item"><img src="img/banner/slide-3.jpg"></div>
+                <div class="carousel-item"><img src="img/banner/slide-4.png"></div>
+            </div>
+            <ul class="carousel-indicators">
+                <li class="active" data-target="#demo" data-slide-to="0"></li>
+                <li  data-target="#demo" data-slide-to="1"></li>
+                <li  data-target="#demo" data-slide-to="2"></li>
+                <li  data-target="#demo" data-slide-to="3"></li>
+            </ul>
+            <a href="#demo" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#demo" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+<!--轮播图-->
+
+<!--主体内容（1）-->
+    <div class="container mt-5 pt-3 pb-5">
+        <div class="row">
+            <div class="col-lg-6 col-md-8 col-sm-12">
+                <img src="img/imac1.png">
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-12">
+                <ul class="list-unstyled list-group border-0">
+                    <li class="h6 font_color">WELCOME TO OUR</li>
+                    <li class="h4 font-weight-bold font_color">CLASSIFY</li>
+                    <li class="font_color mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cumque, earum blanditiis incidunt minus commodi consequatur provident quae. Nihil, alias, vel consequatur ab aliquam aspernatur optio harum facilis excepturi mollitia autem</li>
+                    <li class="font_color mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, cumque, earum blanditiis incidunt minus commodi consequatur provident quae</li>
+                    <li><a href="#" class="btn btn-success">PURCHASE&nbsp;CLASSIFY</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<!--主体内容（1）-->
+
+<!--主体内容（2）-->
+    <div class="bg-light bg_padding">
+        <div class="container">
+            <div class="row pt-5 pb-5 ">
+                <div class="col-md-4 col-sm-6">
+                        <div class="ico">
+                                <span class="glyphicon glyphicon-thumbs-up "></span>
+                        </div>
+                        <div class="text p-0 m-0">
+                                <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                        </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                        <div class="ico">
+                                <span class="glyphicon glyphicon-gift"></span>
+                        </div>
+                        <div class="text p-0 m-0">
+                                <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                        </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                        <div class="ico">
+                                <span class="glyphicon glyphicon-paperclip "></span>
+                        </div>
+                        <div class="text p-0 m-0">
+                                <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--主体内容（2）-->
+<!-- 展示大图  -->
+   <div class="container mt-5 pb-5">
+       <h3 class="text-center  mb-4">RESPONSIVE&nbsp;DESIGN</h3>
+       <p class="text-center title_border">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+       <img src="img/themeimage.jpg"  class="w-100">
+   </div>
+<!-- 展示大图  -->
+<!-- 左图 右字 -->
+    <div class="bg2_color">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-4 col-sm-12">
+                <img src="img/imac2.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-4 col-sm-12">
+                <h3 class="title2_border mt-3">WHY&nbsp;CHOOSE&nbsp;US?</h3>
+                <p class="mb-4 mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad culpa dignissimos distinctio ea eius laborum nesciunt qui quis quisquam quos!
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <p class="mb-2">
+                    <span class="glyphicon glyphicon-ok mr-2 icon_color"></span>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                </p>
+                <a href="#" class="btn btn-success mt-3">Learn&nbsp;MORE</a>
+            </div>
+        </div>
+        </div>
+    </div>
+<!-- 左图 右字 -->
+
+<!-- 黑框背景图 -->
+    <div class="img_box">
+        <div class="black_box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <p class="glyphicon glyphicon glyphicon-user"></p>
+                        <p>6666</p>
+                        <p>CLIENTS&nbsp;WORKED&nbsp;WITH</p>
+                    </div>
+                    <div class="col-3">
+                            <p class="glyphicon glyphicon-leaf"></p>
+                            <p>800</p>
+                            <p>COMPLETED&nbsp;PROJECTS</p>
+                        </div>
+                    <div class="col-3">
+                            <p class="glyphicon glyphicon glyphicon-fire"></p>
+                            <p>555</p>
+                            <p>WINNING&nbsp;AWARDS</p>
+                    </div>
+                    <div class="col-3">
+                            <p class="glyphicon glyphicon glyphicon-signal"></p>
+                            <p>6666</p>
+                            <p>CUPS&nbsp;OF&nbsp;COFFEE</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 黑框背景图 -->
+
+<!-- 图标加字 -->
+    <div class="container mb_5">
+        <h3 class="mt-5 text-center">OUR&nbsp;SERVICE</h3>
+        <p class="text-center title_border">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-thumbs-up "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-gift "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-paperclip "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+        </div>
+        <div class="row row_mt">
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-thumbs-up "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-gift "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                    <div class="ico">
+                            <span class="glyphicon glyphicon-paperclip "></span>
+                    </div>
+                    <div class="text p-0 m-0">
+                            <p>CLEAN&nbsp;&&nbsp;VALID CODE</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, tenetur libero, eum laudantium obcaecati excepturi saepe iure, dolorem cumque ad aliquid! Explicabo aperiam libero ut nihil pariatur nemo tempora laboriosam?</p>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+<!-- 图标加字 -->
+
+<!-- 黑框背景图2 -->
+    <div class="img_box img_box2">
+        <div class="black_box2">
+            <div class="container text-center">
+                <h3 class="text-center mb-5">THINKING OF YOUR NEXT PROJECT?</h3>
+                <a href="#" class="btn btn-success">SEE PRICING</a>
+                <a href="#" class="btn btn-success ml-4">GET A FREE QUOTE</a>
+            </div>
+        </div>
+    </div>
+<!-- 黑框背景图2 -->
+
+<!-- 动画滚动条 手风琴 --> 
+    <div class="container mt-5">
+        <div class="row pt-5 pb-5">
+            <div class="col-md-6 col-sm-12">
+                <!--1-->
+                <div class="mb-5">
+                    <p>HTML</p>
+                    <div class="animei_box w-100 h-25">
+                        <div class="animei_1">
+                        </div>
+                        <div class="animei_ok text-center">
+                            <p>40%</p>
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--2-->
+                <div class="mb-5">
+                    <p>CSS3</p>
+                    <div class="animei_box w-100 h-25">
+                        <div class="animei_2">
+                        </div>
+                        <div class="animei_ok2 text-center">
+                            <p>50%</p>
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+               <!--3-->
+                <div class="mb-5">
+                    <p>JavaScript</p>
+                    <div class="animei_box w-100 h-25">
+                        <div class="animei_3">
+                        </div>
+                        <div class="animei_ok3 text-center">
+                            <p>60%</p>
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--4-->
+                <div  class="mb-5">
+                    <p>Jquery</p>
+                    <div class="animei_box w-100 h-25">
+                        <div class="animei_4">
+                        </div>
+                        <div class="animei_ok4 text-center">
+                            <p>70%</p>
+                            <span class="glyphicon glyphicon-ok"></span>
+                        </div>
+                    </div>
+                </div>
+                <!--5-->
+                <div>
+                        <p>AJAX</p>
+                        <div class="animei_box w-100 h-25">
+                            <div class="animei_5">
+                            </div>
+                            <div class="animei_ok5 text-center">
+                                <p>80%</p>
+                                <span class="glyphicon glyphicon-ok"></span>
+                            </div>
+                        </div>
+                </div>  
+            </div>           
+            <div class="col-md-6 col-sm-12">
+                <div id="parent">
+                    <div class="card card_hr">
+                        <div class="card-header  bg-white">
+                            <a href="#d1" data-toggle="collapse" class="text-dark">
+                          Web design is now different</a>
+                        </div>
+                        <div id="d1" class="collapse show" data-parent="#parent">
+                            <div class="card-body">
+                                <p class="text_color"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi perferendis laboriosam cupiditate corporis nobis! Doloribus aliquam inventore, et quibusdam aspernatur deserunt nam quasi earum, tenetur pariatur consequuntur minus iste accusantium? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_hr">
+                        <div class="card-header  bg-white">
+                            <a href="#d2" data-toggle="collapse"  class="text-dark"> SEO Ready template is now available</a>
+                        </div>
+                        <div id="d2" class="collapse">
+                            <div class="card-body">
+                                <p class="text_color"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium culpa aut enim impedit nihil totam ab suscipit, ea nisi voluptate? Temporibus, nesciunt nulla aliquid asperiores minima iusto voluptates odio dolorum. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card_hr">
+                        <div class="card-header  bg-white">
+                            <a href="#d3" data-toggle="collapse"  class="text-dark">How to make Retina Ready designs</a>
+                        </div>
+                        <div id="d3" class="collapse">
+                            <div class="card-body">
+                                <p class="text_color"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum quasi voluptate voluptates delectus iste temporibus. Atque consequatur tenetur ea repellat, ad nostrum ipsa? Alias sed necessitatibus inventore illum aliquam veritatis. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 动画滚动条 手风琴 -->
+
+<!--位移图片-->
+    <div class="bg3_color pt-5 pb-5">
+        <div class="containter">
+            <h3 class="text-center  mb-4">RESPONSIVE&nbsp;DESIGN</h3>
+            <p class="text-center title_border">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <!--ul-->
+            <div class="m-auto w-25 pt-3">
+                <ul class="list-unstyled d-flex justify-content-around position-relative mb-0">
+            <!-- 第一个12弹框  -->
+                <li>                                                         
+                     <a href="#" class="text-muted a1_touch">All
+                         <div id="touch_1">
+                            <div class="chat text-white"><p>12</p></div>
+                            <div class="triangle"></div>
+                        </div> 
+                     </a>
+                </li>
+            <!-- 第二个5弹框  -->
+                <li>
+                    <a href="#" class="text-muted">Ldentity
+                        <div id="touch_1">
+                            <div class="chat text-white"><p>12</p></div>
+                            <div class="triangle"></div>
+                         </div> 
+                    </a>
+                </li>
+                <li><a href="#" class="text-muted">Web design</a></li>
+                <li><a href="#" class="text-muted">Graphic</a></li>
+                <li><a href="#" class="text-muted">Web design & Identitiy</a></li>
+            </ul>
+            </div>
+            <!--ul-->
+        <!--12张图-->
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                    <div>
+                        <img src="img/" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a href=""></a>
+                </div>
+                <div class="col-md-3 col-sm-6"></div>
+                <div class="col-md-3 col-sm-6"></div>                
+            </div>
+        </div>
+    </div>
+<!--位移图片-->
+
+
+
+
+
+
+
+
+    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<!-- 黑框背景图 -->
+</body> 
+</html>                   
