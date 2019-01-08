@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <!-- 引入boot文件，引入顺序有要求-->
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <style>
+        .img_box{
+            height:15rem;
+            width:100%;
+            background:url(img/breadcrumb.jpg) no-repeat;
+            background-size:100%;
+            background-attachment:fixed;
+        }
+
+        .black_box{
+            width:100%;
+            height:15rem;
+            background:rgba(0, 0, 0, .8);
+            color:#fff;
+            text-align: center;
+            font-size:1.5rem;
+            padding:5rem 0 5rem;
+        }
+    </style>
+</head>
+<body>
+<!--nav导航栏-->
+    <div class="container mb-3 mt-2">
+            <div class="navbar navbar-expand-md  navbar-light">
+                <!--不被折叠的选项-->
+              <a href="#"  class="navbar-brand">
+                <img src="img/logo.png">
+              </a>  
+              <!--小屏幕最右边那个钮：带三条横线--> 
+              <button class="navbar-toggler" data-toggle="collapse" data-target="#content">
+                <span class="navbar-toggler-icon"></span>
+              </button>  
+            <div class="collapse navbar-collapse justify-content-end" id="content">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">SERVICE</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">LOGIN/REGISTER</a></li>
+                </ul>
+            </div>         
+        </div>
+    </div>
+<!--nav导航栏-->
+
+<!-- 黑框背景图 -->
+    <div class="img_box">
+        <div class="black_box">
+            <div class="container">
+                <h2 class="text-center text-white">LOGIN/REGISTER</h2>
+            </div>
+        </div>
+    </div>
+<!-- 黑框背景图 -->
+
+<!--登录-->
+    <div class="login_box pt-5">
+        <div class="container   login">
+        <ul class="list-unstyled d-flex justify-content-start">
+            <li class="ml-4" id="test">
+                <a href="javascript:;" class="text-white"  data-toggle="tab" data-target="#mylogin_box_1">REGISTER</a>
+            </li>
+            <li class="ml-4">
+                <a href="javascript:;" class="text-white " data-toggle="tab" data-target="#mylogin_box_2">LOGIN</a>
+            </li>
+        </ul>
+    </div>
+
+        <div id="big_box">
+            <div id="mylogin_box_1" class="box_style mt-5">
+                <h3 class="text-muted mb-3">WELCOME TO <span class="my_green">REGISTER</span></h3>
+                <input type="text" placeholder="Full Name" class="mt-5">
+                <input type="text" placeholder="Email Address" class="mt-5">
+                <input type="text" placeholder="PassWord" class="mt-5">
+                <input type="text" placeholder="Confirm Password" class="mt-5">
+            <a href="javascript:;" class="">REGISTER</a>
+            </div>
+                <div id="mylogin_box_2" class="box_style mt-5">
+                <h3 class="text-muted mb-3">WELCOME TO <span class="my_green">LOGIN</span></h3>
+                <input type="text" placeholder="Username" class="mt-5">
+                <input type="text" placeholder="PassWord" class="mt-5">
+                <a href="javascript:;" class="">LOGIN</a>
+            </div>
+        </div>
+    </div>
+<!--登录-->
+
+<!-- 最后一块内容  -->
+    <footer class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 box_1">
+                <h5 class="text-muted mb-0">ABOUT</h3>
+                <div class=" my_bgcolor8"> 
+                    <div class=" my_bgcolor9"> </div>
+                </div>
+                <h3 class="mt-2">CLASSIFY</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <div class=" font_box">
+                        <div class="bg-white d-inline-block">
+                            <p class="glyphicon glyphicon-apple"></p>
+                        </div>
+                        <div class="bg-white d-inline-block">
+                                <p class="glyphicon glyphicon-tree-conifer "></p>
+                         </div>
+                         <div class="bg-white d-inline-block">
+                                <p class="glyphicon glyphicon-asterisk"></p>
+                         </div>
+                         <div class="bg-white d-inline-block">
+                                <p class="glyphicon glyphicon-home"></p>
+                         </div>
+                    </div>
+            </div>
+            <div class="col-md-3 col-sm-6 box_2">
+                    <h5 class="text-muted mb-0">CATEGORIES</h3>
+                    <div class=" my_bgcolor8"> 
+                        <div class=" my_bgcolor9"> </div>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li class="d-flex justify-content-between pt-2 pb-2 border-bottom">
+                            <a href="#" class="text-muted">Fasino</a>
+                            <a href="#" class="text-muted">12</a>
+                        </li>
+                        <li class="d-flex justify-content-between pt-2 pb-2 border-bottom">
+                                <a href="#" class="text-muted">Blogger</a>
+                                <a href="#" class="text-muted">13</a>
+                         </li>
+                         <li class="d-flex justify-content-between pt-2 pb-2 border-bottom">
+                                <a href="#" class="text-muted">Sport</a>
+                                <a href="#" class="text-muted">14</a>
+                        </li>
+                        <li class="d-flex justify-content-between pt-2 pb-2 border-bottom">
+                                <a href="#" class="text-muted">Photography</a>
+                                <a href="#" class="text-muted">15</a>
+                        </li>
+                        <li class="d-flex justify-content-between pt-2 pb-2 border-bottom">
+                                <a href="#" class="text-muted">Popular</a>
+                                <a href="#" class="text-muted">16</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col-md-3 col-sm-6 box_3">
+                <h5 class="text-muted mb-0">RECENT POSTS</h3>
+                <div class=" my_bgcolor8"> 
+                    <div class=" my_bgcolor9"></div>
+                </div>
+               <div class="row pt-2 pb-2 ml-0 mt-0 border-bottom">
+                <div class="col-3 pl-0">
+                    <img src="img/blog/1.jpg" alt="">
+                </div>
+                <div class="col-9 ml-0  pl-0">
+                    <p class="mb-0">Lorem ipsum dolor</p>
+                    <p class="mb-0">October 18, 2016</p>
+                </div>
+               </div>
+               <div class="row pt-2 pb-2 ml-0  border-bottom">
+                <div class="col-3 pl-0">
+                    <img src="img/blog/2.jpg" alt="">
+                </div>
+                <div class="col-9 ml-0  pl-0">
+                    <p class="mb-0">Lorem ipsum dolor</p>
+                    <p class="mb-0">October 18, 2016</p>
+                </div>
+               </div>
+               <div class="row pt-2 pb-2 ml-0 mt-2 border-bottom">
+                <div class="col-3 pl-0">
+                    <img src="img/blog/3.jpg" alt="">
+                </div>
+                <div class="col-9 ml-0  pl-0">
+                    <p class="mb-0">Lorem ipsum dolor</p>
+                    <p class="mb-0">October 18, 2016</p>
+                </div>
+               </div>
+            </div>
+            <div class="col-md-3 col-sm-6 box_4">
+            <h5 class="text-muted mb-0">CONTACT US</h3>
+                <div class=" my_bgcolor8"> 
+                    <div class=" my_bgcolor9"></div>
+                </div>
+                <p class="mb-0 mb-1">121 King Street, Melbourne, Australia, Melbourne, Australia</p>
+                <p class="mb-0 mb-1">Phone: (+123) 12-345-6789</p>
+                <p class="mb-0 mb-1">Fax: (+123) 12-345-6789</p>
+                <p>E-mail: <a href="#">craftdesignstaff@gmail.com</a></p>
+            </div>
+        </div>
+    </footer>
+<!-- 最后一块内容  -->
+
+
+
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script>
+    document.getElementById("mylogin_box_1").style.display="block";
+    document.querySelector(".login>ul>li:first-child").className="border_bottom";
+
+    var tabs=document.querySelectorAll("[data-toggle=tab]");
+    for(var tab of tabs){
+        tab.onclick=function(){
+            var tab=this;
+            var divs=document.querySelectorAll("#big_box>div");
+            for(var div of divs){
+                div.style.display="none";
+                var id=tab.getAttribute("data-target");
+                var li=tab.parentElement
+                var div=document.querySelector(id);
+                div.style.display="block";
+                li.className="border_bottom";
+            }
+        }
+    }
+</script>
+</body>
+</html>
